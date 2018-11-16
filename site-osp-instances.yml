@@ -1,4 +1,4 @@
-- hosts: workstation
+- hosts: isolated_group_osp
   become: yes
   roles:
     - osp-servers
